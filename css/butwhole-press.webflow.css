@@ -1460,7 +1460,7 @@
 
   .nav-menu {
     position: relative;
-    z-index: 3000;
+    z-index: 0;
     display: block;
     overflow: hidden;
     border-radius: 45px;
