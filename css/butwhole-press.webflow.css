@@ -469,8 +469,6 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
 }
 
 .footer {
@@ -1304,11 +1302,6 @@
   transform-style: preserve-3d;
 }
 
-.section-6 {
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
 .section-7 {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -1461,9 +1454,8 @@
   }
 
   .navbar {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
+    -webkit-transform: translate3d(0px, 0px, 300px);
+    transform: translate3d(0px, 0px, 300px);
   }
 
   .nav-menu {
@@ -1552,8 +1544,6 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-transform: translate3d(0px, 0px, -300px);
-    transform: translate3d(0px, 0px, -300px);
   }
 
   .footer {
@@ -1697,17 +1687,12 @@
   }
 
   .slider {
-    z-index: -500;
+    z-index: 0;
     width: 18em;
     height: 18em;
   }
 
   .slop-shop-store {
-    -webkit-transform: translate3d(0px, 0px, -300px);
-    transform: translate3d(0px, 0px, -300px);
-  }
-
-  .section-6 {
     -webkit-transform: translate3d(0px, 0px, -300px);
     transform: translate3d(0px, 0px, -300px);
   }
