@@ -447,7 +447,7 @@
   display: block;
   overflow: scroll;
   width: 300px;
-  height: 80vh;
+  height: 650px;
   margin-right: 0px;
   margin-left: 0px;
   border-style: solid;
@@ -1026,6 +1026,10 @@
   font-weight: 300;
   text-align: center;
   text-decoration: none;
+}
+
+.colortext.down {
+  text-decoration: line-through;
 }
 
 .text-span-8 {
